@@ -1,8 +1,12 @@
 import React from 'react';
 
-
-function ImageDisplay({myImage}) {
-    return <img src={myImage} alt="Displayed Image" />;
+function ImageDisplay({ image }) {
+    return (
+        <div>
+            <img src={image.url} alt={image.description} />
+            <p>{image.description}</p>
+        </div>
+    );
 }
 
 export default ImageDisplay;
