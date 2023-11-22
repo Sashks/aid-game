@@ -1,0 +1,24 @@
+.star-rating {
+    display: inline-flex;
+    font-size: 2rem; /* Adjust the size of stars */
+    color: #ddd; /* Color of stars when not selected */
+}
+
+.star-rating .on {
+    color: orange; /* Color of selected stars */
+}
+
+.star-rating button {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.star-rating button:hover,
+.star-rating button:focus {
+    outline: none;
+}
+
+.star {
+    pointer-events: none; /* Makes sure the star character does not interfere with button clicks */
+}

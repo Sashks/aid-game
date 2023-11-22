@@ -1,0 +1,33 @@
+.text-box {
+  border: 2px solid #000; /* Black border */
+  padding: 10px; /* Some padding */
+  margin: 10px 10px; /* Margin at top and bottom */
+  background-color: #f8f8f8; /* Light gray background */
+  text-align: center; /* Center the text */
+  font-size: 1em; /* Font size */
+  /* You can add more styling as per your design */
+}
+
+.images-container {
+  display: flex; /* Aligns children (images) in a row */
+  justify-content: center; /* Centers the images horizontally */
+  gap: 20px; /* Adds space between the images */
+}
+
+.images-container img {
+  max-width: 400px; /* Adjust the size as needed */
+  height: auto; /* Keeps the aspect ratio of the images */
+}
+
+form {
+  margin: 20px 0 10px 10px;
+}
+
+form div {
+  margin-bottom: 10px;
+}
+
+textarea {
+  width: 50%;
+  height: 100px;
+}
